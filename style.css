@@ -1,0 +1,145 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.top-banner .div-left {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+}
+.top-banner .div-right {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+    padding-top: 0;
+}
+.div-left h1 {
+    font-size: 50px;
+}
+.div-left span{
+    color: #ffa500;
+}
+.div-left p {
+    color: dimgray;
+    line-height: 27px;
+    margin-bottom: 22px;
+}
+.top-banner{
+    background-image: url(images/developer-portfolio/top-banner.png);
+    background-repeat:no-repeat ;
+    height: 500px;
+}
+
+.div-left a {
+    text-decoration: none;
+    background: orange;
+    padding: 13px 28px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,#ff9773,#ff6a4d);
+}
+
+/* section 2 */
+
+.dream .div-right {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+    padding-top: 0;
+    background-image: url(images/developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.dream .div-left {
+    width: 44%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+}
+
+.dream .div-right h1 {
+    font-size: 46px;
+}
+.dream .div-right p {
+    color: dimgray;
+    line-height: 27px;
+    margin-bottom: 22px;
+    padding-right: 11%;
+}
+.dream .div-right a {
+    text-decoration: none;
+    background: orange;
+    padding: 13px 28px;
+    color: white;
+    border-radius: 5x;
+    background-image: linear-gradient(45deg,#ff9773,#ff6a4d);
+    
+}
+section.dream {
+    height: 500px;
+    padding-bottom: 327px;
+}
+
+
+/* section3 */
+
+.experience-sec{
+    background-image: url(images/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 500px;
+    padding-bottom: 190px;
+}
+
+
+
+.full-stak {
+    width: 36%;
+    display: inline-block;
+    margin-left: 4%;
+    padding: 2%;
+    box-shadow: 0px 1px 24px grey;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+    padding-bottom: 6%;
+    float: left;
+}
+
+.baby {
+    width: 36%;
+    display: inline-block;
+    margin-left: 4%;
+    padding: 2%;
+    box-shadow: 0px 1px 24px grey;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    padding-bottom: 6%;
+    float: left;
+}
+
+section.experience-sec h1 {
+    font-size: 42px;
+}
+.experience-sec h3 {
+    color: #ffa500;
+    margin-bottom: 19px;
+}
+.experience-sec p {
+    color: dimgray;
+    line-height: 27px;
+}
+
+/* footer */
+
+.footer p{
+    text-align: center;
+    color: dimgray;
+}
